@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d3d7e6;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow Semi Condensed', sans-serif; 
+}
+
+.container {
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+   
+}
+
+img {
+    border-radius: 100%;
+}
+
+.in-carte {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 13px;
+}
+
+.carte {
+    display: grid;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#carte-1 {
+    background-color: #6442b3;
+    background-image: url('bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 477px 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    box-shadow: #4c8c9e 0px 10px 10px;
+}
+
+#carte-2 {
+    background-color: #474c61;
+    box-shadow: #343d3f 0px 10px 20px;
+}
+
+#carte-3 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    box-shadow: #070707 0px 10px 20px;
+}
+
+#carte-4 {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: #000000 0px 10px 20px;
+}
+
+#carte-5 {
+    background-color: #121521;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-shadow: #224952 0px 10px 20px;
+}
